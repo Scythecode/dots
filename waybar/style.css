@@ -1,0 +1,102 @@
+/* ~/.config/waybar/style.css */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
+    font-size: 13px;
+    min-height: 0;
+}
+ 
+window#waybar {
+    background: rgba(21, 18, 27, 0.8);
+    color: #cdd6f4;
+}
+ 
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+ 
+#workspaces button {
+    padding: 5px;
+    color: #313244;
+    margin-right: 5px;
+}
+ 
+#workspaces button.active {
+    color: #a6adc8;
+    background: #313244;
+    border-radius: 10px;
+}
+ 
+#workspaces button.urgent {
+    color: #11111b;
+    background: #f38ba8;
+    border-radius: 10px;
+}
+ 
+#workspaces button:hover {
+    background: #11111b;
+    color: #cdd6f4;
+    border-radius: 10px;
+}
+ 
+#window {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+ 
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray {
+    background: #1e1e2e;
+    padding: 0 10px;
+    margin: 3px 0px;
+    margin-top: 3px;
+    border: 1px solid #181825;
+}
+ 
+#cpu {
+    color: #f5c2e7;
+    border-radius: 10px 0px 0px 10px;
+    border-right: 0px;
+    margin-left: 5px;
+}
+ 
+#memory {
+    color: #eba0ac;
+    border-radius: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+ 
+#network {
+    color: #f9e2af;
+    border-radius: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+ 
+#pulseaudio {
+    color: #89b4fa;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 0px;
+    margin-right: 5px;
+}
+ 
+#tray {
+    margin-right: 5px;
+    border-radius: 10px;
+}
+ 
+#clock {
+    color: #a6e3a1;
+    border-radius: 10px;
+    margin-right: 5px;
+}
