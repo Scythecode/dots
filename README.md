@@ -1,1 +1,1 @@
-My configs for hyprland
+My configs for hyprland/swayfx
