@@ -1,1 +1,1 @@
-My configs for hyprland/swayfx
+My configs for arch/hyprland

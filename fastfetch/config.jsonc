@@ -12,15 +12,11 @@
     "display",
     "de",
     "wm",
-    "wmtheme",
-    "theme",
-    "icons",
     "terminal",
     "terminalfont",
     "cpu",
     "gpu",
     "memory",
-    "break",
     "colors"
   ]
 }
