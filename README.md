@@ -1,1 +1,1 @@
-My configs for arch/hyprland
+My configs for things. USE AT YOUR OWN RISK!!
